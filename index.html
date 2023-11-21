@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <title>twinklestarenglishhighschool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Tilt Neon', sans-serif;
+            transition: all ease-in-out 0.3s;
+
+        }
+
+
+        body {
+
+            background-image: url('images/classmatephotos.png');
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: contain;
+            overflow-x: hidden;
+           
+        }
+
+        h1 {
+            font-size: 45px;
+        }
+
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 100px;
+
+        }
+
+        nav {
+
+            width: 70vw;
+            height: 10vh;
+            background-color: white;
+            color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+
+        .hambergar {
+            display: none;
+        }
+
+        li {
+            list-style-type: none;
+            padding: 0 20px;
+            cursor: pointer;
+
+        }
+
+        ul,
+        .iconss {
+            display: flex;
+            cursor: pointer;
+
+        }
+
+        .main {
+            width: 100%;
+            display: flex;
+            background-size: contain;
+            justify-content: space-around;
+            text-align: center;
+            align-items: center;
+        }
+
+        .left {
+            width: 400px;
+            height: 450px;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .right {
+            text-align: left;
+            height: 100px;
+
+
+        }
+
+        .float {
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+
+        }
+
+
+        p {
+            padding: 5px;
+        }
+
+        .lefpara {
+            font-size: 14px;
+        }
+
+        .buttonss {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        button {
+            width: 150px;
+            height: 40px;
+            margin: 2.5px;
+            background-color: black;
+            border: none;
+            border-radius: 50px;
+            color: white;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        .innerbox {
+            width: 15px;
+            height: 120px;
+            background-color: rgb(255, 191, 0);
+            margin-right: 20px;
+
+
+        }
+
+        .innerdiv {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .toplayer {
+            width: 400px;
+            height: 100px;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            margin-top: 70px;
+
+        }
+
+        .innerbox {
+            width: 15px;
+            height: 120px;
+            background-color: rgb(255, 191, 0);
+            margin-right: 20px;
+            border-radius: 20px;
+
+
+        }
+
+
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .a {
+            margin: 0 50px;
+        }
+
+        .a:hover {
+            transform: scale(1.1);
+        }
+
+        .carousel-container {
+            display: flex;
+            overflow: hidden;
+            margin-bottom: 70px;
+        }
+
+        .carousel-item {
+            width: 420px;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position-x: center;
+            flex: 0 0 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+
+        .carousel-wrapper {
+
+            display: flex;
+            transition: transform 1.3s;
+
+        }
+
+
+
+        .carousel-btn {
+            background-color: white;
+            border: none;
+        }
+
+        .buttonssss {
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+        }
+
+        .iconone {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.8);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+
+
+
+        }
+
+        span {
+            text-align: center;
+        }
+
+        .namee {
+            color: white;
+        }
+
+        .namee:hover {
+            transform: scale(1.05);
+
+        }
+
+        .heading {
+            width: 100%;
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            top: 200px;
+
+        }
+
+        .footers {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+        }
+
+        .ftioc {
+            margin-top: 15px;
+            cursor: pointer;
+
+        }
+
+        i {
+            margin: 0 8px;
+        }
+
+
+
+
+
+        img {
+            width: 100px;
+
+        }
+
+        .contact {
+            position: absolute;
+            top: 60px;
+            right: 220px;
+
+        }
+
+        .divss {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 70px;
+        }
+
+
+
+        .content {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 70px;
+
+        }
+
+        .imonlef {
+            background-image: url('images/holdingbooks.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+
+        .abusonle {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            width: 500px;
+            height: 300px;
+
+        }
+
+        .axz {
+            width: 500px;
+            height: 500px;
+        }
+
+
+        li:hover {
+            transform: scale(1.1);
+        }
+
+        i:hover {
+            transform: scale(1.2);
+        }
+
+        .outer_main {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            padding: 50px 0;
+        }
+
+        .top_footer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+        }
+
+        .leftfooter {
+            width: 450px;
+
+        }
+
+        .rightfooter {
+            width: 450px;
+            text-align: center;
+
+
+        }
+
+        .margingfooter {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        .toplayerrrr {
+            width: 100%;
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .toone {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .man {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 70px;
+        }
+
+        .downnn {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .headingoffacts {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 70px;
+        }
+
+        .c {
+            width: 70px;
+            height: 70px;
+            margin: 15px;
+            border-radius: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.8);
+
+        }
+
+        .c:hover {
+            transform: scale(1.1);
+        }
+
+        .bbbb {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .bus {
+            background-image: url("images/force-traveller-3700-school-van.jpg");
+        }
+
+        .comp {
+            background-image: url("images/clab33.jpg");
+        }
+
+        .playgr {
+            background-image: url("images/ground.jpg")
+        }
+
+        .lib {
+            background-image: url("images/lib.jpg");
+        }
+
+        .cislab {
+            background-image: url("images/kids_science_class.jpg");
+        }
+
+        .lore {
+            width: 400px;
+            background-image: url("images/education-hero-small.png");
+
+        }
+
+        .lore p {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+
+        .facelities_main {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 70px;
+
+
+        }
+
+        .facelities {
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        .fahdhd {
+            display: flex;
+            justify-content: start;
+            align-items: start
+        }
+
+        .headinggg {
+            width: 250px;
+            margin-bottom: 25px;
+        }
+
+        .log:hover {
+            transform: scale(1.1);
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        .words {
+            width: 350px;
+        }
+
+        .mobilenav {
+            width: 70%;
+            min-height: 100vh;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            left: -100%;
+            transition: all 1s;
+            z-index: 100;
+            text-align: center;
+
+
+        }
+
+        .mobileeeee {
+            margin-top: 50px;
+        }
+
+        .mobmenus {
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        #mobinavigation:checked~.mobilenav {
+            left: 0;
+        }
+
+        #cutmobile {
+            position: relative;
+            left: 400px;
+            top: -30px;
+
+        }
+
+        a {
+            color: white;
+            text-underline-position: above;
+        }
+
+        .testimonials {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 70px;
+            text-align: center;
+        }
+
+        .parentswords {
+            width: 300px;
+            height: 250px;
+
+        }
+
+        .parioc {
+            width: 70px;
+            height: 70px;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+
+        }
+
+        .parentshed {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 70px;
+        }
+
+        .p1 {
+            background-image: url("images/ash yadav.jpg");
+        }
+
+        .p2 {
+            background-image: url("images/teacherone.png");
+        }
+
+        .p3 {
+            background-image: url("images/gaurii.jpg");
+        }
+        .sectionss {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+
+        .a1 {
+            width: 250px;
+            height: 300px;
+            margin: 20px 30px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+
+        }
+
+        .b1 {
+
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+            z-index: 0;
+            margin-bottom: 20px;
+
+
+        }
+        .icononee{
+            background-image: url("images/download.png");
+        }
+        .icononee2{
+            background-image: url("images/staff-icon.webp");
+            background-size: 60px;
+        }
+        .icononee3{
+            background-image: url("images/complaint-icon.webp");
+            background-size: 50px;
+        }
+
+
+
+        @media screen and (width<850px) {
+
+            .main {
+                flex-direction: column;
+            }
+
+            .downnn {
+                flex-direction: column-reverse;
+            }
+
+            .stats {
+                flex-wrap: wrap;
+            }
+
+            .top_footer {
+                flex-direction: column;
+            }
+
+            .toplayer {
+                width: 300px;
+                height: 100px;
+                margin: 130px 0;
+
+            }
+
+            .innerbox {
+
+                height: 130px;
+            }
+
+            .left {
+                width: 300px;
+                text-align: center;
+                margin-top: 150px;
+
+            }
+
+            body {
+
+                background-image: url('images/classmatesstwo.png');
+
+
+            }
+
+            .axzb {
+                width: 500px;
+                height: 500px;
+            }
+
+            .leftfooter {
+                width: 350px;
+
+            }
+
+            .rightfooter {
+                width: 350px;
+
+
+
+            }
+
+            .carousel-item {
+                width: 125px;
+                height: 450px;
+
+            }
+
+            .carousel-wrapper {
+
+                transition: transform 1s;
+
+            }
+
+            .lore {
+
+                display: none;
+            }
+
+            .hambergar {
+                display: flex;
+
+            }
+
+            .menuone {
+                display: none;
+            }
+
+            nav {
+
+                height: 8vh;
+
+
+            }
+
+            .namee {
+                font-size: 30px;
+                margin-bottom: 50px;
+            }
+
+            .right {
+                visibility: hidden;
+
+            }
+
+            img {
+                width: 70px;
+                margin-left: 20px;
+
+            }
+
+            #cutmobile {
+                left: 110px;
+
+            }
+
+        }
+
+        #mobinavigation {
+            display: none;
+        }
+
+        .heder {
+            margin-top: 15px;
+        }
+        .cotact{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="checkbox" id="mobinavigation">
+
+    <div class="mobilenav">
+        <label for="mobinavigation" id="cutmobile">X</label>
+        <h2>Twinkle Star English High School </h2>
+        <div class="mobileeeee">
+            <ul class="mobmenus">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+                <li><a href="index.html">Teachers</a></li>
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="index.html">Admission</a></li>
+                <li><a href="index.html">Gallery</a></li>
+                <li><a href="index.html">Events</a></li>
+
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="toplayerrrr">
+        <div class="toone">
+            <div class="lgo">
+                <img src="images/schoollogooooooo.png" alt="starlogo">
+            </div>
+            <div class="cotact">
+                <i class="fi fi-sr-phone-call"></i>
+                Tel. 8080694522 / <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9156960791
+            </div>
+        </div>
+        <div class="heder">
+            <nav>
+                <ul class="menuone">
+                    <li>Home</li>
+                    <li>Teachers</li>
+                    <li>Gallery</li>
+                </ul>
+
+
+                <div class="hambergar" id="hammm"><label for="mobinavigation">&#9776;</label></div>
+                <div class="iconss">
+                    <i class="fi fi-brands-youtube"></i>
+                    <i class="fi fi-brands-facebook"></i>
+                    <i class="fi fi-brands-instagram"></i>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="man">
+        <div class="headng">
+            <h1 class="namee" style="text-align: center;">Twinkle Star English High School</h1>
+        </div>
+
+
+        <div class="downnn">
+            <div class="left">
+                <h5>Welcome to our site</h5>
+                <h2>"Where Knowledge Meets Compassion"</h2>
+
+
+                <p class="lefpara">
+                    school is at the forefront of integrating technology and new teaching methodologies into its
+                    curriculum
+                    where students begin their journey towards a successful future, ensuring that students not only
+                    excel
+                    academically but also become caring individuals.
+
+                </p>
+                <div class="buttonss">
+                    <div><button>Download Form</button></div>
+                    <div><button>Contact us</button></div>
+
+                </div>
+
+                <div>
+                    <i class="fi fi-brands-twitter"></i>
+                    <i class="fi fi-brands-whatsapp"></i>
+                    <i class="fi fi-brands-youtube"></i>
+                    <i class="fi fi-brands-facebook"></i>
+                    <i class="fi fi-brands-instagram"></i>
+                </div>
+            </div>
+
+
+
+
+            <div class="right">
+                <div class="toplayer" style="background-color: red;">
+
+                    <div class="innerbox"></div>
+                    <div class="float">
+
+                        <h3 style="margin-bottom: 3px;">"Learning Today, Leading Tomorrow"</h3>
+                        <p style="font-size: 12px;">
+                            The school plays a pivotal role in shaping well-rounded individuals ready to take on
+                            leadership
+                            roles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="stats">
+        <div class="a">
+            <h1>17+</h1>
+            Years of Experience
+        </div>
+        <div class="a">
+            <h1>8000+</h1>
+            <p>Students</p>
+        </div>
+
+        <div class="a">
+            <h1>35+</h1>
+            <p>Working Staffs</p>
+        </div>
+        <div class="a">
+            <h1>5+</h1>
+            <p>Teaching Institutions</p>
+        </div>
+
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel-wrapper">
+            <div class="carousel-item">
+                <div class="iconone" style="background-image: url('images/sukantnayaksir.png'); transform: rotate(-5deg);">
+
+                </div>
+
+                <span>
+                    <h3>Founder: Mr. Sukant Nayak</h3><br>
+                    <p class="words">"We focus on innovation in education,
+                        indicating that it continually seeks new
+                        ways to educate students, ultimately leading to their elevation in all aspects of life."</p>
+                </span>
+            </div>
+            <div class="carousel-item">
+                <div class="iconone" style="background-image: url('images/teachertwo.jpg');"></div>
+                <span>
+                    <h3>Co-Founder: Miss. Saniya Nayak</h3><br>
+                    <p class="words">"Each student's educational journey is personalized, with the school's support,
+                        leading to their individualized success."</p>
+                </span>
+            </div>
+            <div class="carousel-item">
+                <div class="iconone" style="background-image: url('images/teachertre.jpg');"></div>
+                <span>
+                    <h3>Vice-Princple: Miss XYZ</h3><br>
+                    <p class="words">"The school's commitment to imparting not just knowledge but also wisdom and
+                        strong moral character in students, emphasizing the holistic nature of education."</p>
+                </span>
+            </div>
+        </div>
+    </div>
+   
+
+
+    <div class="sectionss">
+        <div class="a1">
+            <div class="b1 bbbb icononee " ></div>
+            <h4 >Fees Structure</h4>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione architecto aut vitae deserunt, optio
+            incidunt accusamus
+            <br>
+            <br>
+            <a href="staff.html"><button>Read</button></a>
+
+        </div>
+        <div class="a1">
+            <div class="b1 bbbb icononee2"></div>
+            <h4 >Staffs</h4>
+            <br>
+            We have highly Qualified teaching and and non teaching staffs who personally look after the childerns and
+            <br>
+            <br>
+            <a href="staff.html"><button>Read</button></a>
+        </div>
+        <div class="a1">
+            <div class="b1 bbbb icononee3"></div>
+            <h4>Complain Box</h4>
+            <br>
+            <p>
+                We have highly Qualified teaching and and non teaching staffs in
+            </p>
+            <br>
+            <br>
+            <a href="staff.html"><button>Complain</button></a>
+        </div>
+    </div>
+
+
+
+
+    <div class="content">
+        <div class="imonlef axz"> </div>
+        <div class="abusonle axzb">
+            <h2>About Us</h2>
+            "For over 17 years, Twinkle Star English High School has stood as a beacon of excellence in education,
+            setting new standards for holistic development and nurturing the leaders of tomorrow. Our journey has been
+            one of unwavering commitment to academic brilliance, sportsmanship, and a vibrant cultural tapestry that
+            defines our institution.
+            <button>Read more</button>
+        </div>
+    </div>
+
+    <h2 class="headingoffacts">Facelities in Our School</h2>
+
+    <div class="facelities_main">
+        <div class="facelities">
+
+            <div class="fahdhd">
+                <div class="bus c"></div>
+                <div class="headinggg">
+                    <h4>School Bus</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ab! Lorem ipsum dolor sit."
+                    </p>
+                </div>
+            </div>
+            <div class="fahdhd">
+                <div class="comp c"></div>
+                <div class="headinggg">
+                    <h4>Computer Lab</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ab! Lorem ipsum dolor sit."
+                    </p>
+                </div>
+            </div>
+
+            <div class="fahdhd">
+                <div class="lib c"></div>
+                <div class="headinggg">
+                    <h4>School Libraries</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ab! Lorem ipsum dolor sit."
+                    </p>
+                </div>
+            </div>
+
+            <div class="fahdhd">
+                <div class="playgr c"></div>
+                <div class="headinggg">
+                    <h4>School Ground</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ab! Lorem ipsum dolor sit."
+                    </p>
+                </div>
+            </div>
+
+            <div class="fahdhd">
+                <div class="cislab c"></div>
+                <div class="headinggg">
+                    <h4>Science Lab</h4>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ab! Lorem ipsum dolor sit."
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="lore bbbb">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, quisquam. lore10
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, minus.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <h2 class="parentshed">What Parents Says About Us...</h2>
+
+    <div class="testimonials">
+
+
+        <div class="parentswords">
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe officiis sapiente mollitia officia nulla
+            quisquam incidunt corporis blanditiis voluptatum, nesciunt sunt, ea provident ducimus magnam similique esse
+            sint, quam expedita!"
+
+            <div class="parioc p1 bbbb"></div>
+            Mr.John the don
+
+        </div>
+        <div class="parentswords">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit atque quos
+            nesciunt, at corporis fugiat velit sunt sit non architecto! Veniam optio id asperiores tempore? Possimus
+            aperiam quas esse qui?"
+
+            <div class="parioc p2 bbbb"></div>
+            Mr.Raju Shrivastav
+
+
+        </div>
+        <div class="parentswords">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur laudantium, at
+            perspiciatis doloremque possimus aliquam, dignissimos minus officia neque aliquid corporis reiciendis
+            ratione sit necessitatibus, spernatur!"
+
+            <div class="parioc p3 bbbb"></div>
+            Miss. Gauri Yadav
+
+        </div>
+
+    </div>
+
+    <div class="parentshed">
+        <h5>Developted By John the Don</h5>
+    </div>
+
+    
+
+    <footer class="footers">
+        <div class="outer_main">
+            <div class="top_footer">
+                <div class="leftfooter">
+                    <p><i class="fi fi-ss-marker"></i> Pelhar Bg.no. 4<br> &nbsp;&nbsp;&nbsp;&nbsp;Vasai (e), Palghar -
+                        401208, Maharashtra</p><br>
+                    <p><i class="fi fi-sr-phone-call"></i>
+                        8080694522/9156960791</p><br>
+                    <p> <i class="fi fi-sr-envelope-dot"></i> twinklestarenglishhighschool@gmail.com</p>
+                </div>
+                <br>
+                <div class="rightfooter">
+                    <h5><i class="fi fi-ss-school"></i>
+                        About Us</h5><br>
+                    <p>Lorem ipsum, Aboutdolor sit amet consectetur adipisicing elit. Reprehenderit, aperiam? Loremlore
+                        ipsum totam illo provident blanditiis laborum!</p>
+                    <div class="ftioc">
+                        <i class="fi fi-brands-youtube"></i>
+                        <i class="fi fi-brands-facebook"></i>
+                        <i class="fi fi-brands-instagram"></i>
+                        <i class="fi fi-brands-twitter"></i>
+                        <i class="fi fi-brands-whatsapp"></i>
+                    </div>
+                </div>
+
+
+            </div>
+            <br>
+            <div class="margingfooter"> © 2023 Twikle Star English High School. All Rights Reserved</div>
+
+        </div>
+
+
+    </footer>
+    <script>
+        let slideIndex = 0;
+        const totalSlides = document.querySelectorAll('.carousel-item').length;
+        let autoSlideInterval;
+
+        function showSlide(index) {
+            const slides = document.querySelectorAll('.carousel-item');
+            const wrapper = document.querySelector('.carousel-wrapper');
+            const slideWidth = slides[0].clientWidth;
+
+            if (index < 0) {
+                slideIndex = totalSlides - 1;
+            }
+
+            if (index >= totalSlides) {
+                slideIndex = 0;
+            }
+
+            const offset = -slideIndex * slideWidth;
+            wrapper.style.transform = `translateX(${offset}px)`;
+        }
+
+        function prevSlide() {
+            clearInterval(autoSlideInterval); // Stop auto-slide
+            slideIndex--;
+            showSlide(slideIndex);
+            autoSlideInterval = setInterval(nextSlide, 3000); // Start auto-slide again
+        }
+
+        function nextSlide() {
+            clearInterval(autoSlideInterval); // Stop auto-slide
+            slideIndex++;
+            showSlide(slideIndex);
+            autoSlideInterval = setInterval(nextSlide, 3000); // Start auto-slide again
+        }
+
+        // Auto-slide functionality 
+        autoSlideInterval = setInterval(nextSlide, 3000);
+    </script>
+
+</body>
+
+</html>
